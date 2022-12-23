@@ -27,7 +27,7 @@ include_once 'includes/header.php';
 </table>
 
 
-<a class="btn btn-primary" href="#" role="button">ADICIONAR CLIENTE</a>
+<a class="btn btn-primary" href="adicionar.php" role="button">ADICIONAR CLIENTE</a>
 
 <?php
 //FOOTER

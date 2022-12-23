@@ -5,7 +5,7 @@ include_once 'includes/header.php';
 ?>
 
 <h3>Novo Cliente</h3>
-<form>
+<form action="php_action/create.php" method="POST">
   <div class="mb-3">
     <label for="nome" class="form-label">Nome</label>
     <input type="nome" name="nome" class="form-control" id="nome">
@@ -22,8 +22,8 @@ include_once 'includes/header.php';
     <label for="idade" class="form-label">Idade</label>
     <input type="idade" name="idade" class="form-control" id="idade">
   </div>
-  <button type="submit" class="btn btn-primary">CADASTRAR</button>
-  <button type="submit" class="btn btn-primary">LISTA DE CLIENTES</button>
+  <button type="submit" name="btn-cadastrar" class="btn btn-primary">CADASTRAR</button>
+  <a href="index.php" type="submit" class="btn btn-primary">LISTA DE CLIENTES</a>
 </form>
 
 
