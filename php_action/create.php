@@ -11,9 +11,9 @@ if(isset($_POST['btn-cadastrar'])):
     $sql = "INSERT INTO clientes(nome, sobrenome, email, idade) VALUES ('$nome', '$sobrenome', '$email', '$idade')";
 
     if(mysqli_query($connect, $sql)):
-        header('Location: index.php?sucesso');
+        header('Location: ../index.php?sucesso');
     else:
-        header('Location: index.php?erro');
+        header('Location: .../index.php?erro');
     endif;
 
 endif;
